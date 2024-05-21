@@ -5,4 +5,4 @@
 This repository holds tutorials made by w3schools on the following languages:
 
 - [C++](c++/)
-- [Python](https://www.w3schools.com/python/) (not yet, might add it later, link takes you to w3schools)
+- [Python](python/) (not yet, might add it later, link takes you to w3schools)
