@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <cmath>
 
 using namespace std;
 
@@ -28,23 +26,22 @@ int main() {
 
     Use switch to specify many alternative blocks of code to be executed
 
-
-    if syntax
+    Syntax
     if (condition) {
         Do this shit
     }
     */
 
     // example
-
     int x, y;
-    cout << "Write a number please: " << endl;
+
+    cout << "Write a number please: " << "\n";
     cin >> x;
-    cout << "Give another one: " << endl;
+    cout << "Give another one: " << "\n";
     cin >> y;
 
     if (x == y) {
-        cout << "These numbers are the same" << endl;
+        cout << "These numbers are the same" << "\n";
     }
 
     return 0;

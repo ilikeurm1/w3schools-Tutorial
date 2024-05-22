@@ -8,7 +8,9 @@ int main() {
 
     In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x:
     */
+
     int x = 10;
+    
     // The addition assignment operator (+=) adds a value to a variable:
     x += 5; // x = x + 5 = 15
 
@@ -27,7 +29,6 @@ int main() {
     ^=	        x ^= 3	    x = x ^ 3   // bitwise XOR
     >>=	        x >>= 3	    x = x >> 3  // bit shift right
     <<=	        x <<= 3	    x = x << 3  // bit shift left
-    
     */
 
     return 0;

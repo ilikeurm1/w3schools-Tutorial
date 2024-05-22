@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cmath>
 
 using namespace std;
 
@@ -9,12 +8,9 @@ int main() {
     In C++, you don't have to specify the size of the array. 
     The compiler is smart enough to determine the size of the array based on the number of inserted values:
     
-
     string cars[] = {"Volvo", "BMW", "Ford"}; // Three array elements
     // The example above is equal to:
-    string cars[3] = {"Volvo", "BMW", "Ford"}; // Also three array elements
-
-    
+    string cars[3] = {"Volvo", "BMW", "Ford"}; // Also three array elements    
 
     Omit Elements on Declaration
     It is also possible to declare an array without specifying the elements on declaration, and add them later:    
@@ -25,8 +21,11 @@ int main() {
     cars[1] = "BMW";
     // ...
 
-    cout << cars;
+    cout << cars << "\n";
 
+    for (string i : cars) {
+        cout << i << "\n";
+    }
 
     return 0;
 }

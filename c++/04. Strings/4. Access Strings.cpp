@@ -9,14 +9,17 @@ int main() {
 
     This example prints the first character in myString:
     */
+   
     string myString = "Hello";
-    cout << myString[0] << endl; // Outputs H
+    cout << myString[0] << "\n"; // Outputs H
 
     /* Change String Characters
     To change the value of a specific character in a string, 
     refer to the index number, and use single quotes: 
     */
+
     myString[0] = 'J';
-    cout << myString << endl; // Outputs Jello
+    cout << myString << "\n"; // Outputs Jello
     
+    return 0;
 }

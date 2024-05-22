@@ -4,9 +4,7 @@
 using namespace std;
 
 int main() {
-    /*
-    It is possible to use the extraction operator >> on cin to store a string entered by a user:
-    */
+    // It is possible to use the extraction operator >> on cin to store a string entered by a user:
 
     // string firstName;
     // cout << "Type your first name: ";

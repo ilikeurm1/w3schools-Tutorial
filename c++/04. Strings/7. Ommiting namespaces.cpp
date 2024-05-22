@@ -7,7 +7,9 @@ The using namespace std line can be omitted and replaced with the std keyword, f
 #include <string>
 
 int main() {
-  std::string greeting = "Hello";
-  std::cout << greeting;
+  std::string greeting = "Hello"; // Declaration
+
+  std::cout << greeting; // Output
+  
   return 0;
 }

@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cmath>
 
 using namespace std;
 
@@ -22,10 +21,7 @@ int main() {
 
     string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
 
-    /*
-    To create an array of three integers, you could write:
-    */
-
+    // To create an array of three integers, you could write:
     int myNum[3] = {10, 20, 30};
 
     /* Access the Elements of an Array
@@ -39,10 +35,10 @@ int main() {
     /* Change an Array Element
     To change the value of a specific element, refer to the index number:
     */
+
     cars[0] = "Opel";
+    
     cout << cars[0]; // Now outputs Opel instead of Volvo
-
-
 
     return 0;
 }

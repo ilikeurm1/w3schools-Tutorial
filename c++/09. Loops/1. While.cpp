@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <cmath>
 
 using namespace std;
 
@@ -13,17 +11,17 @@ int main() {
         // code block to be executed
     }
     
-    // In the example below, the code in the loop will run,
+    In the example below, the code in the loop will run,
     over and over again, as long as a variable (i) is less than 5:
     */
     
     int i = 1, end = 10;
+
     end++; // plus 1 as the condition isnt inclusive
     while (i < end) { 
         cout << "I have ran a total of: " << i << '\n';
         i++;
     }
-
 
     return 0;
 }

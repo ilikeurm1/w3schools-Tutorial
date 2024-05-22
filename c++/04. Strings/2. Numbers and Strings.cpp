@@ -10,14 +10,15 @@ int main() {
     C++ uses the + operator for both addition and concatenation.
 
     Numbers are added. Strings are concatenated.    
+    
+
+    If you add two numbers, the result will be a number:
+    int x = 10;
+    int y = 20;
+    int z = x + y;      // z will be 30 (an integer)
+
+    If you add two strings, the result will be a string concatenation:
     */
-
-    // If you add two numbers, the result will be a number:
-    // int x = 10;
-    // int y = 20;
-    // int z = x + y;      // z will be 30 (an integer)
-
-    // If you add two strings, the result will be a string concatenation:
 
     string x = "10";
     string y = "20";
@@ -28,7 +29,7 @@ int main() {
     // int y = 20;
     // string z = x + y; // ERROR
 
-    cout << z << endl;
+    cout << z << "\n";
 
     return 0;
 }

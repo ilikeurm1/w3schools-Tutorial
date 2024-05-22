@@ -12,12 +12,14 @@ int main() {
 
     In the following example, we use the greater than operator (>) to find out if 5 is greater than 3:
     */
+
     int x = 5;
     int y = 3;
+    
     cout << (x > y); // returns 1 (true) because 5 is greater than 3
 
     /*
-    Operator	Name	                    Example	Try it
+    Operator	Name	                    Example
     ==	        Equal to	                x == y	
     !=	        Not equal	                x != y	
     >	        Greater than	            x > y	
@@ -25,6 +27,7 @@ int main() {
     >=	        Greater than or equal to	x >= y	
     <=	        Less than or equal to	    x <= y
     */
+
     return 0;
 }
 

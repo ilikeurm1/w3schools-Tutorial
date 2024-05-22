@@ -1,24 +1,19 @@
 #include <iostream>
-#include <string>
 #include <cmath>
 
 using namespace std;
 
 int main() {
     int x = 10, y = 9;
-    cout << (x > y) << endl; // 1
-    // cout << (10 > 9) << endl; // 1
-
-
+    cout << (x > y) << "\n"; // 1
+    // cout << (10 > 9) << "\n"; // 1
 
     /*
     In the examples below, 
     we use the equal to (==) operator to evaluate an expression:
     */
-    cout << (10 == x) << endl; // 1
-    cout << (10 == y) << endl; // 0
-
-
+    cout << (10 == x) << "\n"; // 1
+    cout << (10 == y) << "\n"; // 0
 
     /* Real Life Example
     
@@ -33,7 +28,7 @@ int main() {
     int myAge = 25;
     int votingAge = 18;
 
-    cout << (myAge >= votingAge) << endl; // returns 1 (true), meaning 25 year olds are allowed to vote!
+    cout << (myAge >= votingAge) << "\n"; // returns 1 (true), meaning 25 year olds are allowed to vote!
 
     /*
     Cool, right? An even better approach (since we are on a roll now), 
@@ -42,9 +37,10 @@ int main() {
     */
 
     if (myAge >= votingAge) {
-        cout << "You are old enough!!" << endl;
+        cout << "You are old enough!!" << "\n";
     } else {
-        cout << "You are not old enough!!" << endl;
+        cout << "You are not old enough!!" << "\n";
     }
+
     return 0;
 }

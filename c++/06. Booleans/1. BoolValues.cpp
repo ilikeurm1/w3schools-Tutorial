@@ -7,7 +7,9 @@ using namespace std;
 int main() {
     bool isCodingFun = true; // 1 or true
     bool isFishTasty = false; // 0 or false.
-    cout << isCodingFun << endl; // 1
-    cout << isFishTasty << endl; // 0
+
+    cout << isCodingFun << "\n"; // 1
+    cout << isFishTasty << "\n"; // 0
+
     return 0;
 }

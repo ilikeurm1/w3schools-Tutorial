@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <cmath>
 
 using namespace std;
 
@@ -13,8 +11,7 @@ int main() {
     
     do {
         // code block to be executed
-    }
-    while (condition);
+    } while (condition);
 
     The example below uses a do/while loop. 
     The loop will always be executed at least once, 
@@ -23,12 +20,12 @@ int main() {
     */
 
     int i = 0, end = 10;
+    
     end++; // plus 1 as the condition isnt inclusive
     do {
-    cout << i << "\n";
-    i++;
-    }
-    while (i < end);
+        cout << i << "\n";
+        i++;
+    } while (i < end);
     
     return 0;
 }

@@ -4,12 +4,10 @@
 using namespace std;
 
 int main() {
-    /*
-    To get the length of a string, use the length() function:
-    */
+    // To get the length of a string, use the length() function:
 
     string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    cout << "The length of the txt string is: " << txt.length() << endl;
+    cout << "The length of the txt string is: " << txt.length() << "\n";
 
     /*
     Tip: You might see some C++ programs that use the size() function to get the length of a string. 
@@ -18,7 +16,7 @@ int main() {
     */
 
     string txt2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    cout << "The length of the txt2 string is: " << txt2.size() << endl;
+    cout << "The length of the txt2 string is: " << txt2.size() << "\n";
 
     return 0;
 }

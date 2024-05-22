@@ -7,7 +7,7 @@ The solution to avoid this problem, is to use the backslash escape character.
 
 The backslash (\) escape character turns special characters into string characters:
 
-Escape      character	Result	Description
+Escape      character	Result Description
 \'	        '	        Single quote
 \"	        "	        Double quote
 \\	        \	        Backslash
@@ -26,7 +26,6 @@ Other popular escape characters in C++ are:
 Escape Character	Result
 \n	                New Line
 \t	                Tab
-
 */
 
 // All very similar to python!!!!!!!!

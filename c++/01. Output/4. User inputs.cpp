@@ -1,9 +1,9 @@
 #include <iostream>
+
 using namespace std;
 
-// Add two user inputs.
-
 int main() {
+    // Add two user inputs.
     int x, y;
     cout << "Type a number: ";
     cin >> x;

@@ -5,14 +5,15 @@
 using namespace std;
 
 int main() {
-    /* Use the switch statement to select one of many code blocks to be executed.
+    /* 
+    Use the switch statement to select one of many code blocks to be executed.
     
     switch (expression)
     {
     case (x: constant-expression):
-    ... // Code block
+        // Code block
         break;
-    
+        
     case (y: constant-expression):
         // Code block
         break;
@@ -31,8 +32,10 @@ int main() {
 
     Definition of the default keyword:
     The default keyword specifies some code to run if there is no case match
+    */
 
     int day = 4;
+
     switch (day) {
     case 1:
         cout << "Monday";
@@ -59,9 +62,6 @@ int main() {
         cout << "This is not a valid day of the week!";
         break;
     }
-    */
-
-    int day = 4;
 
     return 0;
 }

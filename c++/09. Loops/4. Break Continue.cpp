@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <cmath>
 
 using namespace std;
 
@@ -50,6 +48,7 @@ int main() {
     */
 
     int i = 0;
+
     while (i < 10) {
         i++;
         if (i == 4) {
@@ -69,6 +68,7 @@ int main() {
     */
 
     i = 0;
+
     while (i < 10) {
         i++;
         if (i == 4) {
@@ -77,5 +77,6 @@ int main() {
         }
         cout << i << "\n";
     }
+
     return 0;
 }
