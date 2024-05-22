@@ -1,4 +1,12 @@
+# Auto Created
 .mypy_cache
 .vscode
+
+# File type exclusions
 *.exe
+
+# Folder exclusions
 Python vs C++
+
+# File exclusions
+
